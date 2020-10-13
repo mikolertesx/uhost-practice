@@ -202,8 +202,14 @@ main {
   cursor: pointer;
 }
 
-.button:hover,
-.button:active {
+.button[disabled] {
+  background: black;
+  color: white;
+  cursor: not-allowed;
+}
+
+.button:not([disabled]):hover,
+.button:not([disabled]):active {
   background: white;
   color: #0e4f1f;
 }
