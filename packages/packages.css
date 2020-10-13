@@ -81,6 +81,8 @@ main {
   font-family: "AnonymousPro", sans-serif;
   font-weight: bold;
   font-style: italic;
+  line-height: 2;
+  text-shadow: 2px 3px 12px rgba(0, 0, 0, 0.5);
 }
 
 .clearfix {
